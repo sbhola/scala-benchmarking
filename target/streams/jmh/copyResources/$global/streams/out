@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(D:\WorkSpace\Revenue Management\SnappyBenchmarking\target\scala-2.11\resource_managed\jmh\META-INF\BenchmarkList,D:\WorkSpace\Revenue Management\SnappyBenchmarking\target\scala-2.11\classes\META-INF\BenchmarkList)[0m
+[0m[[0mdebug[0m] [0m	(D:\WorkSpace\Revenue Management\SnappyBenchmarking\target\scala-2.11\resource_managed\jmh\META-INF\CompilerHints,D:\WorkSpace\Revenue Management\SnappyBenchmarking\target\scala-2.11\classes\META-INF\CompilerHints)[0m
+[0m[[0mdebug[0m] [0m	(D:\WorkSpace\Revenue Management\SnappyBenchmarking\src\main\resources\data,D:\WorkSpace\Revenue Management\SnappyBenchmarking\target\scala-2.11\classes\data)[0m

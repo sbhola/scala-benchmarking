@@ -1,0 +1,213 @@
+[0m[[0mdebug[0m] [0mjavaOptions: List()[0m
+[0m[[0minfo[0m] [0mRunning org.openjdk.jmh.Main -i 20 -wi 10 -f1 -t1[0m
+[0m[[0minfo[0m] [0m# JMH version: 1.19[0m
+[0m[[0minfo[0m] [0m# VM version: JDK 1.8.0_101, VM 25.101-b13[0m
+[0m[[0minfo[0m] [0m# VM invoker: C:\Program Files\Java\jdk1.8.0_101\jre\bin\java.exe[0m
+[0m[[0minfo[0m] [0m# VM options: <none>[0m
+[0m[[0minfo[0m] [0m# Warmup: 10 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Measurement: 20 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Timeout: 10 min per iteration[0m
+[0m[[0minfo[0m] [0m# Threads: 1 thread, will synchronize iterations[0m
+[0m[[0minfo[0m] [0m# Benchmark mode: Throughput, ops/time[0m
+[0m[[0minfo[0m] [0m# Benchmark: benchmark.TestCompression.gzipCompress[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# Run progress: 0.00% complete, ETA 00:02:00[0m
+[0m[[0minfo[0m] [0m# Fork: 1 of 1[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   1: 0.038 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   2: 0.047 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   3: 0.049 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   4: 0.047 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   5: 0.050 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   6: 0.048 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   7: 0.053 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   8: 0.056 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   9: 0.051 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration  10: 0.043 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   1: 0.045 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   2: 0.042 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   3: 0.057 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   4: 0.050 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   5: 0.055 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   6: 0.050 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   7: 0.048 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   8: 0.052 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   9: 0.045 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  10: 0.050 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  11: 0.045 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  12: 0.049 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  13: 0.047 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  14: 0.049 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  15: 0.050 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  16: 0.047 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  17: 0.050 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  18: 0.059 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  19: 0.059 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  20: 0.057 ops/ms[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mResult "benchmark.TestCompression.gzipCompress":[0m
+[0m[[0minfo[0m] [0m  0.050 ±(99.9%) 0.004 ops/ms [Average][0m
+[0m[[0minfo[0m] [0m  (min, avg, max) = (0.042, 0.050, 0.059), stdev = 0.005[0m
+[0m[[0minfo[0m] [0m  CI (99.9%): [0.046, 0.054] (assumes normal distribution)[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# JMH version: 1.19[0m
+[0m[[0minfo[0m] [0m# VM version: JDK 1.8.0_101, VM 25.101-b13[0m
+[0m[[0minfo[0m] [0m# VM invoker: C:\Program Files\Java\jdk1.8.0_101\jre\bin\java.exe[0m
+[0m[[0minfo[0m] [0m# VM options: <none>[0m
+[0m[[0minfo[0m] [0m# Warmup: 10 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Measurement: 20 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Timeout: 10 min per iteration[0m
+[0m[[0minfo[0m] [0m# Threads: 1 thread, will synchronize iterations[0m
+[0m[[0minfo[0m] [0m# Benchmark mode: Throughput, ops/time[0m
+[0m[[0minfo[0m] [0m# Benchmark: benchmark.TestCompression.gzipDecomress[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# Run progress: 25.00% complete, ETA 00:01:35[0m
+[0m[[0minfo[0m] [0m# Fork: 1 of 1[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   1: 0.016 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   2: 0.016 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   3: 0.016 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   4: 0.024 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   5: 0.025 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   6: 0.028 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   7: 0.030 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   8: 0.042 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   9: 0.046 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration  10: 0.046 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   1: 0.046 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   2: 0.046 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   3: 0.047 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   4: 0.046 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   5: 0.047 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   6: 0.047 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   7: 0.047 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   8: 0.047 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   9: 0.046 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  10: 0.046 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  11: 0.047 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  12: 0.047 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  13: 0.046 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  14: 0.045 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  15: 0.046 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  16: 0.046 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  17: 0.045 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  18: 0.045 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  19: 0.040 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  20: 0.043 ops/ms[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mResult "benchmark.TestCompression.gzipDecomress":[0m
+[0m[[0minfo[0m] [0m  0.046 ±(99.9%) 0.001 ops/ms [Average][0m
+[0m[[0minfo[0m] [0m  (min, avg, max) = (0.040, 0.046, 0.047), stdev = 0.002[0m
+[0m[[0minfo[0m] [0m  CI (99.9%): [0.044, 0.047] (assumes normal distribution)[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# JMH version: 1.19[0m
+[0m[[0minfo[0m] [0m# VM version: JDK 1.8.0_101, VM 25.101-b13[0m
+[0m[[0minfo[0m] [0m# VM invoker: C:\Program Files\Java\jdk1.8.0_101\jre\bin\java.exe[0m
+[0m[[0minfo[0m] [0m# VM options: <none>[0m
+[0m[[0minfo[0m] [0m# Warmup: 10 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Measurement: 20 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Timeout: 10 min per iteration[0m
+[0m[[0minfo[0m] [0m# Threads: 1 thread, will synchronize iterations[0m
+[0m[[0minfo[0m] [0m# Benchmark mode: Throughput, ops/time[0m
+[0m[[0minfo[0m] [0m# Benchmark: benchmark.TestCompression.snappyCompress[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# Run progress: 50.00% complete, ETA 00:01:04[0m
+[0m[[0minfo[0m] [0m# Fork: 1 of 1[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   1: 0.026 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   2: 0.181 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   3: 0.179 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   4: 0.189 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   5: 0.227 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   6: 0.222 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   7: 0.196 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   8: 0.194 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   9: 0.196 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration  10: 0.214 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   1: 0.219 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   2: 0.204 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   3: 0.200 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   4: 0.212 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   5: 0.217 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   6: 0.215 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   7: 0.198 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   8: 0.203 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   9: 0.201 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  10: 0.231 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  11: 0.254 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  12: 0.256 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  13: 0.255 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  14: 0.268 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  15: 0.259 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  16: 0.267 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  17: 0.258 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  18: 0.318 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  19: 0.322 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  20: 0.318 ops/ms[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mResult "benchmark.TestCompression.snappyCompress":[0m
+[0m[[0minfo[0m] [0m  0.244 ±(99.9%) 0.035 ops/ms [Average][0m
+[0m[[0minfo[0m] [0m  (min, avg, max) = (0.198, 0.244, 0.322), stdev = 0.041[0m
+[0m[[0minfo[0m] [0m  CI (99.9%): [0.208, 0.279] (assumes normal distribution)[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# JMH version: 1.19[0m
+[0m[[0minfo[0m] [0m# VM version: JDK 1.8.0_101, VM 25.101-b13[0m
+[0m[[0minfo[0m] [0m# VM invoker: C:\Program Files\Java\jdk1.8.0_101\jre\bin\java.exe[0m
+[0m[[0minfo[0m] [0m# VM options: <none>[0m
+[0m[[0minfo[0m] [0m# Warmup: 10 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Measurement: 20 iterations, 1 s each[0m
+[0m[[0minfo[0m] [0m# Timeout: 10 min per iteration[0m
+[0m[[0minfo[0m] [0m# Threads: 1 thread, will synchronize iterations[0m
+[0m[[0minfo[0m] [0m# Benchmark mode: Throughput, ops/time[0m
+[0m[[0minfo[0m] [0m# Benchmark: benchmark.TestCompression.snappyDecomress[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# Run progress: 75.00% complete, ETA 00:00:31[0m
+[0m[[0minfo[0m] [0m# Fork: 1 of 1[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   1: 0.010 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   2: 0.094 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   3: 0.100 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   4: 0.098 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   5: 0.105 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   6: 0.111 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   7: 0.118 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   8: 0.120 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration   9: 0.121 ops/ms[0m
+[0m[[0minfo[0m] [0m# Warmup Iteration  10: 0.161 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   1: 0.135 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   2: 0.142 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   3: 0.102 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   4: 0.133 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   5: 0.107 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   6: 0.117 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   7: 0.119 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   8: 0.133 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration   9: 0.137 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  10: 0.138 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  11: 0.142 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  12: 0.143 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  13: 0.138 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  14: 0.140 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  15: 0.142 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  16: 0.138 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  17: 0.140 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  18: 0.133 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  19: 0.132 ops/ms[0m
+[0m[[0minfo[0m] [0mIteration  20: 0.133 ops/ms[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mResult "benchmark.TestCompression.snappyDecomress":[0m
+[0m[[0minfo[0m] [0m  0.132 ±(99.9%) 0.010 ops/ms [Average][0m
+[0m[[0minfo[0m] [0m  (min, avg, max) = (0.102, 0.132, 0.143), stdev = 0.012[0m
+[0m[[0minfo[0m] [0m  CI (99.9%): [0.122, 0.142] (assumes normal distribution)[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m# Run complete. Total time: 00:02:07[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mBenchmark                         Mode  Cnt  Score   Error   Units[0m
+[0m[[0minfo[0m] [0mTestCompression.gzipCompress     thrpt   20  0.050 ± 0.004  ops/ms[0m
+[0m[[0minfo[0m] [0mTestCompression.gzipDecomress    thrpt   20  0.046 ± 0.001  ops/ms[0m
+[0m[[0minfo[0m] [0mTestCompression.snappyCompress   thrpt   20  0.244 ± 0.035  ops/ms[0m
+[0m[[0minfo[0m] [0mTestCompression.snappyDecomress  thrpt   20  0.132 ± 0.010  ops/ms[0m
