@@ -1,4 +1,4 @@
-package example;
+package benchmark;
 
 import java.io.*;
 import java.util.Base64;

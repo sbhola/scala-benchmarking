@@ -1,4 +1,0 @@
-JMH S 25 benchmark.TestCompression S 56 benchmark.generated.TestCompression_gzipCompress_jmhTest S 12 gzipCompress S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
-JMH S 25 benchmark.TestCompression S 57 benchmark.generated.TestCompression_gzipDecomress_jmhTest S 13 gzipDecomress S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
-JMH S 25 benchmark.TestCompression S 58 benchmark.generated.TestCompression_snappyCompress_jmhTest S 14 snappyCompress S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
-JMH S 25 benchmark.TestCompression S 59 benchmark.generated.TestCompression_snappyDecomress_jmhTest S 15 snappyDecomress S 10 Throughput E A 1 1 1 E E E E E E E E E E E E E E U 12 MILLISECONDS E E 
