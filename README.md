@@ -1,1 +1,4 @@
 # scala-benchmarking
+
+We can run our benchmark using jmh:run -i 20 -wi 10 -f1 -t1 in sbt. In this command, -i 20 says that we want to run each benchmark with 20 iterations, -wi 10 says to run 10 warmup iterations, -f 1 says to fork once on each benchmark, and -t1 says to run on one thread. Increasing the number of threads would let us see if the throughput of our benchmark method will scale up. Increasing the number of forks lets us verify performance across multiple JVM instances. If no values are provided, JMH will default to 20 warmup iterations, 20 measurement iterations, 1 thread, and 10 forks. All of these values could be set via annotations in the test code as well. I'm using one fork here minimize execution time, but more than one fork should usually be used for accurate results.
+Reference: https://chariotsolutions.com/blog/post/microbenchmarking-scala-with-jmh/
